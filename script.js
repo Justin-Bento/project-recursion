@@ -1,7 +1,7 @@
 function fibonacciIter(n) {
   const result = [0, 1];
   for (let i = 2; i < n; i++) {
-    console.log(i + 1);
+    result.push(result[i - 1] + result[i - 2]);
   }
 }
 fibonacciIter(8);
