@@ -11,5 +11,5 @@ function fibonacciRec(n) {
   */
   console.log(n);
 }
-
+fibonacciIter(8);
 fibonacciRec("Hello World");
