@@ -8,6 +8,6 @@ function fibonacciIter(n) {
 console.log(fibonacciIter(8));
 
 function fibonacciRec(n) {
-  console.log(n);
+  return n;
 }
-fibonacciRec("Hello World");
+console.log(fibonacciRec(8));
