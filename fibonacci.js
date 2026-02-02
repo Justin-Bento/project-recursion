@@ -7,7 +7,7 @@ function fibonacciIter(n) {
 }
 console.log(fibonacciIter(8));
 
-// function fibonacciRec(n) {
-//   console.log(n);
-// }
-// fibonacciRec("Hello World");
+function fibonacciRec(n) {
+  console.log(n);
+}
+fibonacciRec("Hello World");
