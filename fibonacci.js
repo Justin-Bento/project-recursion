@@ -8,9 +8,8 @@ function fibonacciIter(n) {
 console.log(fibonacciIter(8));
 
 function fibonacciRec(n) {
-  if (n === 0) {
-    return 1;
-  }
-  return n * fibonacciRec(n - 1);
+  if (n === 0) return 0;
+  if (n === 1) return 1;
+  return fibonacciRec(n - 1) + fibonacciRec(n - 2);
 }
-console.log(fibonacciRec(5));
+console.log(fibonacciRec(7));
